@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "821457294369",
+    "project_id": "todo-bloc-82e51",
+    "storage_bucket": "todo-bloc-82e51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821457294369:android:1e3bfeafcd9f5b54b97f60",
+        "android_client_info": {
+          "package_name": "com.example.todo_fb_bloc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7XMVy5jYNW9e5LRmV4OebVB6WAGp5syk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
