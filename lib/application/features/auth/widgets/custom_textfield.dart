@@ -50,9 +50,12 @@ class _CustomTextFormFieldState extends State<CustomTextFormField> {
       keyboardType: widget.type,
       controller: widget.controller,
       decoration: InputDecoration(
+        // label: Text(widget.hintText),
+        labelStyle: Theme.of(context).textTheme.bodySmall,
+        labelText: widget.hintText,
         errorStyle: const TextStyle(color: Colors.red),
-        hintStyle: Theme.of(context).textTheme.bodySmall,
-        hintText: widget.hintText,
+        // hintStyle: Theme.of(context).textTheme.bodySmall,
+        // hintText: widget.hintText,
         enabledBorder: OutlineInputBorder(
             borderRadius: BorderRadius.circular(12),
             borderSide: const BorderSide(color: Colors.white)),

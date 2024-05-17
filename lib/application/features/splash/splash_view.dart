@@ -17,8 +17,19 @@ class SplashViewWrapper extends StatelessWidget {
   }
 }
 
-class SplashView extends StatelessWidget {
+class SplashView extends StatefulWidget {
   const SplashView({Key? key}) : super(key: key);
+
+  @override
+  State<SplashView> createState() => _SplashViewState();
+}
+
+class _SplashViewState extends State<SplashView> {
+  @override
+  void initState() {
+    context.read<AuthBloc>().add(CheckLoginStatusEvent());
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {

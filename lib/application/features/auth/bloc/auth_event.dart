@@ -20,3 +20,5 @@ class SignUpEvent extends AuthEvent {
     required this.user,
   });
 }
+
+class LogoutEvent extends AuthEvent {}
